@@ -1,6 +1,6 @@
 body{
     background-color: rgb(110, 41, 175);
-    background-image: url(/image/fondoo.jpg);
+    background-image: url(./image/fondoo.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: scroll;

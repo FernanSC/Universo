@@ -1,13 +1,14 @@
 body{
     background-color: rgb(110, 41, 175);
-    background-image: url(../image/fondoo.jpg);
+    background-image: url(../image/fondo1.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: scroll;
 }
 
+
 h1{
-    padding: 10px 5px 10px 5px;
+    padding: 10px 0 10px 0;
 }
 
 #icono{
@@ -19,9 +20,8 @@ h1{
 ul{
     list-style-type: none;
     margin: 0 0 20px 0; /*margen imterno*/
-    padding: 0 0 0 500px; /*margen externo*/
+    padding: 0 0px 0 30%; /*margen externo*/
     background-color: rgb(75, 74, 74);
-    width: 100%;
     overflow: hidden;
     /*border: 1px solid black; para poner borde*/
 }
@@ -30,23 +30,22 @@ ul{
 
 li{
     float: left;
-    text-align: center;
 }
 
 li a{
     display: block;
     color: aliceblue;
-    text-align:center;
     text-decoration: none;
-    padding: 8px 0 8px 16px;
+    padding: 8px 15px 8px 15px;
 }
 
 /*cambia el color al pasar el mouse*/
 
 li a:hover{
-    width: 100px;
+    width: 1250x;
     background-color: aquamarine;
     color: brown;
+    text-align: center;
 }
 
 li:last-child{
@@ -68,7 +67,7 @@ h3{
     color: aqua;
     text-transform: uppercase;
     text-align: center;
-    margin: 0 800px 10px 800px;
+    margin: 0 700px 10px 700px;
     background-color: rgb(17, 146, 43);
 }
 
@@ -111,4 +110,3 @@ img{
     align-items: center;
     padding: 20px;
 }
-

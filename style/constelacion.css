@@ -1,0 +1,107 @@
+body{
+    background-image: url(../image/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+}
+
+#icono{
+    width:35px;
+    height:35px;
+    margin: 3px 0 0 28px;
+}
+
+#todo{
+    width:30%;
+    height:25%;
+    margin: 1px 0 10px 35%;
+}
+
+h1{
+    text-align: center;
+    padding: 4px 0 0 0;
+    margin: 20px 0 30px 20px;
+    color: rgb(80, 55, 67);
+    background-color: rgb(172, 85, 59);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0 0 20px 0; /*margen imterno*/
+    padding: 0 0px 0 27%; /*margen externo*/
+    background-color: rgb(23, 15, 138);
+    overflow: hidden;
+    /*border: 1px solid black; para poner borde*/
+}
+
+/*barra de navegacion horizontal*/
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 8px 15px 8px 15px;
+}
+
+/*cambia el color al pasar el mouse*/
+
+li a:hover{
+    width: 250px;
+    background-color: aquamarine;
+    color: brown;
+    text-align: center;
+}
+
+li:last-child{
+    border-bottom: none;
+}
+
+table, th,td{
+    /*border-style: */
+    /*border-width: ;*/
+    /*border-color: ;*/
+    border: 3px solid rgb(53, 9, 53);
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
+td img{
+    width: 35%;
+}
+
+th{
+    font-size: 30px;
+    width: 50px;
+    background-color: rgb(55, 14, 93);
+}
+
+/* cambia de color 
+tr:hover{
+    background-color: brown;
+} */
+
+#text{
+    width: 25%;
+    font-size: 30px;
+    color: rgb(218, 238, 105);
+}
+
+#text2{
+    text-align: justify;
+    padding: 0 15px 0 15px;
+    font-size: 20px;
+    color: rgb(69, 159, 187);
+    background-color: rgba(0, 0, 0, 0.336);
+}
+
+footer{
+    margin: 10px 0 0 0;
+    padding: 1px 0 1px 0;
+}

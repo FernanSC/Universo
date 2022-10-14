@@ -1,0 +1,87 @@
+body{
+    background-image: url(../image/fondo4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+}
+
+h1{
+    text-align: center;
+    padding: 4px 0 0 0;
+    margin: 20px 0 30px 20px;
+    color: rgb(72, 105, 101);
+    background-color: rgb(172, 192, 58);
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0 0 20px 0; /*margen imterno*/
+    padding: 0 0px 0 27%; /*margen externo*/
+    background-color: rgb(185, 107, 34);
+    overflow: hidden;
+    /*border: 1px solid black; para poner borde*/
+}
+
+/*barra de navegacion horizontal*/
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 8px 15px 8px 15px;
+}
+
+/*cambia el color al pasar el mouse*/
+
+li a:hover{
+    width: 250px;
+    background-color: aquamarine;
+    color: brown;
+    text-align: center;
+}
+
+li:last-child{
+    border-bottom: none;
+}
+
+img{
+    border-radius: 50px;
+    width: 20%;
+    /* tamaño - tipo - color */
+    border: 5px solid rgb(16, 46, 18);
+    padding: 2px; /*espacio interno*/
+    margin: 0 0 25px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    margin: 20px 43% 20px 43%;
+    background-color: rgb(79, 21, 134);
+    color: red;
+    text-align: center;
+}
+
+.prueba{
+    width: 100%;
+    margin: 10px 0 10px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+
+#texto1{
+    margin: 0 0 15px 0;
+    background-color: #3333337d;
+    color: aliceblue;
+}
+
+footer{
+    padding: 3px 0 3px 0;
+}
